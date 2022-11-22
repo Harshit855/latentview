@@ -1,17 +1,9 @@
-from tokenize import group
-import pandas as pd
-import os
-import snowflake.connector
+
 from pptx.chart.data import ChartData
 from pptx.util import Pt,Inches
 from pptx.dml.color import RGBColor
 from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 import calendar
-from datetime import datetime, timedelta,date
-from dateutil import relativedelta
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 
 def calculate_chart(chart_object,df,ver,col_list):
