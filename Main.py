@@ -1,3 +1,6 @@
+import pip
+pip.main(['install','python-pptx'])
+
 import importlib
 from Code.Title_slide import Title_date
 from datetime import datetime
