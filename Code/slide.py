@@ -1,3 +1,8 @@
+
+import pip
+pip.main(['install','pandas'])
+pip.main(['install','attr'])
+
 from abc import ABC, abstractmethod
 from attr import attr
 import pandas as pd
