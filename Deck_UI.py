@@ -1,3 +1,7 @@
+
+import pip
+pip.main(['install','streamlit'])
+
 import streamlit as st
 from Main import main
 #logo image
