@@ -28,7 +28,7 @@ def main(ppt='Template Risk Deck - Overall.pptx'):
     date_today = datetime.today().strftime('%Y-%m-%d')
 
     make_slides(prez)
-    prez.save(f"Output/{date_today} Risk Deck.pptx")
+    prez.save(f"{date_today} Risk Deck.pptx")
 
 if __name__ == '__main__':
     main()
