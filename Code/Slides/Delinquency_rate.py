@@ -1,6 +1,4 @@
 
-import pip
-pip.main(['install','pandas'])
 from Code import slide
 import Code.imp_func as ip
 import pandas as pd
