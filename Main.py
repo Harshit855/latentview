@@ -1,6 +1,3 @@
-import pip
-pip.main(['install','python-pptx'])
-pip.main(['install','pandas'])
 
 import importlib
 from Code.Title_slide import Title_date
