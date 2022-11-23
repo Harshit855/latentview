@@ -1,6 +1,5 @@
 
 import pip
-pip.main(['install','pandas'])
 pip.main(['install','seaborn'])
 pip.main(['install','matplotlib'])
 from Code import slide
