@@ -1,7 +1,4 @@
 
-import pip
-pip.main(['install','seaborn'])
-pip.main(['install','matplotlib'])
 from Code import slide
 import Code.imp_func as ip
 import pandas as pd
